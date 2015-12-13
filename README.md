@@ -8,14 +8,14 @@ Libraries required:
 
 Instructions to run:
 - Go to the 'src' directory from command line
-- run the comman "python TweetClassifier.py"
+- Run the command "python TweetClassifier.py"
 
 The general command options:
 
  python TweetClassifier.py [-d data_file_path] [-t test_file_path]
 
- If you provide nothing, it will load the default file and wil run a 10-fold crossvalidation and then show report.
- If you only provide data_file_pith, it'll load that file, run a 10-fold crossvalidation and then show report.
+ If you provide nothing, it will load the default file and will run a 10-fold cross-validation and then show report.
+ If you only provide data_file_pith, it'll load that file, run a 10-fold cross-validation and then show report.
  If you provide data_file_path and test_file_path, it'll train the classifier with data_file_path file and test against test_file_path
 
 
